@@ -1,63 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gabriel Raymi Vaccaro Ortiz - Portafolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 2rem;
-      background-color: #f5f5f5;
-      color: #333;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 0.3rem;
-    }
-    p {
-      font-size: 1.1rem;
-    }
-    section {
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .proyecto {
-      background-color: white;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gabriel Vaccaro - Portafolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
-<body>
+<body style="background-color: #f8f9fa;">
 
-  <header>
-    <h1>Gabriel Raymi Vaccaro Ortiz</h1>
-    <p>UTEC CS Student · Web Dev · Python · Git</p>
-    <p>Buscando prácticas remotas 👨‍💻</p>
+  <!-- Header -->
+  <header class="bg-dark text-white text-center py-5 mb-4">
+    <div class="container">
+      <h1 class="fw-bold">Gabriel Raymi Vaccaro Ortiz</h1>
+      <p class="lead">UTEC CS Student · Web Dev · Python · Git</p>
+      <p>Buscando prácticas remotas 👨‍💻</p>
+    </div>
   </header>
 
-  <section>
-    <h2>🧩 Proyecto Actual</h2>
-    <div class="proyecto">
-      <p><strong>Proyecto Final P3</strong></p>
-      <p>Repositorio de mi proyecto actual en GitHub. Estoy en proceso de seguir construyendo y aprendiendo.</p>
-      <p><a href="https://github.com/vaccaro12334/PROYECTO_FINAL_P3" target="_blank">Ver en GitHub</a></p>
+  <!-- Sobre mí -->
+  <section class="container mb-5">
+    <h2 class="mb-3">🙋 Sobre mí</h2>
+    <p>
+      Soy estudiante de Ciencias de la Computación en la Universidad de Ingeniería y Tecnología (UTEC), Lima, Perú. 
+      Me interesa el desarrollo web, la automatización con Python y aprender más sobre tecnología mientras colaboro en proyectos reales.
+    </p>
+  </section>
+
+  <!-- Proyecto Actual -->
+  <section class="container">
+    <h2 class="mb-4">🧩 Proyecto Actual</h2>
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Proyecto Final P3</h5>
+        <p class="card-text">
+          Repositorio de mi proyecto actual en GitHub. Estoy en proceso de seguir construyendo y aprendiendo.
+        </p>
+        <a href="https://github.com/vaccaro12334/PROYECTO_FINAL_P3" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+      </div>
     </div>
   </section>
+
+  <footer class="text-center mt-5 mb-3 text-muted">
+    <small>© 2025 Gabriel Vaccaro — Portafolio personal</small>
+  </footer>
 
 </body>
 </html>
